@@ -2,7 +2,7 @@
 
 # 以下是你的原始脚本内容
 echo -e "\033[0;31m本脚本由\033[0;37m@mikeuse提供! \033[0m"
-read -p "\033[0;37m按Enter键继续运行脚本...\033[0m"
+read -p "按Enter键继续运行脚本..."
 set -o errexit
 
 
