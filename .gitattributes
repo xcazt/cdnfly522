@@ -7,3 +7,4 @@
 *.repo filter=lfs diff=lfs merge=lfs -text
 *.mmdb filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+agent.sh filter=lfs diff=lfs merge=lfs -text
