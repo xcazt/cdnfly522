@@ -115,9 +115,9 @@ def head(url, **kwargs):
 
 def post(url, data=None, json=None, **kwargs):
     if url.find("https://auth.cdnfly.cn") != -1:
-        url = url.replace('https://auth.cdnfly.cn', 'http://cdnfly522.5205230.xyz')
+        url = url.replace('http://cdnfly522.5205230.xyz', 'http://cdnfly522.5205230.xyz')
     if url.find("https://monitor.cdnfly.cn") != -1:
-        url = url.replace('https://monitor.cdnfly.cn', 'http://cdnfly522.5205230.xyz')
+        url = url.replace('http://cdnfly522.5205230.xyz', 'http://cdnfly522.5205230.xyz')
 
     r"""Sends a POST request.
 
