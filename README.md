@@ -7,7 +7,7 @@
 CentOS7更换镜像源<br />
 ### 免费添加白名单地址：<br />
 ```bash
-https://cdnfly522.5205230.xyz
+https://cdnfly522.cdn456.eu.org
 ```
 <u>账号密码都是admin</u><br />
 
