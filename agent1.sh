@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # 以下是你的原始脚本内容
 echo -e "\033[0;37m本脚本由\033[0;37m@mikeuse提供!\033[0m"
 read -p "按Enter键继续运行脚本..."
@@ -287,4 +289,3 @@ mv $dir_name cdnfly
 cd /opt/cdnfly/agent
 chmod +x install.sh
 ./install.sh $@
-
