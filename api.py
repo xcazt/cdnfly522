@@ -62,15 +62,15 @@ def request(method, url, **kwargs):
 
 def get(url, params=None, **kwargs):
     if url.find("https://update.cdnfly.cn") != -1:
-        url = url.replace('https://update.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://update.cdnfly.cn', 'http://auth.cdnfly.cn')
     if url.find("https://update-cn.cdnfly.cn") != -1:
-        url = url.replace('https://update-cn.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://update-cn.cdnfly.cn', 'http://auth.cdnfly.cn')
     if url.find("https://update-us.cdnfly.cn") != -1:
-        url = url.replace('https://update-us.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://update-us.cdnfly.cn', 'http://auth.cdnfly.cn')
     if url.find("https://dl2.cdnfly.cn") != -1:
-        url = url.replace('https://dl2.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://dl2.cdnfly.cn', 'http://auth.cdnfly.cn')
     if url.find("https://us.centos.bz") != -1:
-        url = url.replace('https://us.centos.bz', 'https://auth.cdnfly.cn')
+        url = url.replace('https://us.centos.bz', 'http://auth.cdnfly.cn')
 
     r"""Sends a GET request.
 
@@ -115,9 +115,9 @@ def head(url, **kwargs):
 
 def post(url, data=None, json=None, **kwargs):
     if url.find("https://auth.cdnfly.cn") != -1:
-        url = url.replace('https://auth.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://auth.cdnfly.cn', 'http://auth.cdnfly.cn')
     if url.find("https://monitor.cdnfly.cn") != -1:
-        url = url.replace('https://monitor.cdnfly.cn', 'https://auth.cdnfly.cn')
+        url = url.replace('https://monitor.cdnfly.cn', 'http://auth.cdnfly.cn')
 
     r"""Sends a POST request.
 
